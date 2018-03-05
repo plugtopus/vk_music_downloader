@@ -1,0 +1,47 @@
+{
+   "advSettings": {
+      "message": "Убираем рекламу"
+   },
+   "appDesc": {
+      "message": "Это приложение поможет вам скачать музыку с сайта вконтакте ( vk.com )."
+   },
+   "appName": {
+      "message": "VKDownloader - скачать музыку ВКонтакте"
+   },
+   "audioSettings": {
+      "message": "Настройки Аудио"
+   },
+   "download": {
+      "message": "Скачать"
+   },
+   "downloadAll": {
+      "message": "Скачать все аудио-записи на этой странице в одну папку"
+   },
+   "downloadTrackLabel": {
+      "message": "Скачать эту композицию"
+   },
+   "enterFolderName": {
+      "message": "Введите название для папки(Внимание данная функция необратима):"
+   },
+   "multiCount": {
+      "message": "Выберите одновременных скачиваний"
+   },
+   "pluginState": {
+      "message": "Состояние плагина VKDownloader (Вкл/Выкл)"
+   },
+   "showBitrate": {
+      "message": "Отображать битрейт (кбит/с)"
+   },
+   "turnAudioOff": {
+      "message": "Убирать аудио-рекламу"
+   },
+   "turnBannersOff": {
+      "message": "Отключить баннеры под меню слева"
+   },
+   "turnFeddOff": {
+      "message": "Скрывать рекламные записи в ленте"
+   },
+   "turnGroupOff": {
+      "message": "Скрывать рекламные записи в группах"
+   }
+}

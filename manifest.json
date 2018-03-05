@@ -1,0 +1,40 @@
+{
+    "author": "Plugtopus Agency",
+   "background": {
+      "scripts": [ "/js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/options.png",
+      "default_popup": "/html/options.html",
+      "default_title": "vkdownloader"
+   },
+   "content_scripts": [ {
+      "js": [ "/js/spreloader.js" ],
+      "matches": [ "*://*.vk.com/*", "*://vk.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "/css/style.css" ],
+      "js": [ "/js/preloader.js" ],
+      "matches": [ "*://*.vk.com/*", "*://vk.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_appDesc__",
+   "externally_connectable": {
+      "matches": [ "*://*.vk.com/*" ]
+   },
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "48": "images/48.png"
+   },
+   "homepage_url": "https://plugtopus.agency",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "/html/options.html",
+   "permissions": [ "tabs", "downloads", "webRequest", "webRequestBlocking", "*://*.vk.me/*", "*://*.userapi.com/*", "*://*.vk-cdn.net/*", "*://vk.com/*", "*://*.vk.com/*" ],
+   "short_name": "vkdownloader",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.18.1",
+   "web_accessible_resources": [ "images/*", "plugins/*" ]
+}
